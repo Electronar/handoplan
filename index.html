@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commissioning & Handover Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.5;
+            color: #2c3e50;
+            background-color: #ecf0f1;
+            padding: 20px;
+        }
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+        .official-header {
+            border-top: 5px solid #1e3a8a;
+            border-bottom: 2px solid #1e3a8a;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .official-header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1e3a8a;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+        .official-header p {
+            font-size: 13px;
+            color: #555;
+            margin: 3px 0;
+        }
+        .document-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-left: 4px solid #1e3a8a;
+        }
+        .document-info table {
+            width: 100%;
+            font-size: 13px;
+        }
+        .document-info td {
+            padding: 6px;
+            border-bottom: 1px solid #ddd;
+        }
+        .document-info strong {
+            width: 150px;
+            display: inline-block;
+        }
+        .section-header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 12px 15px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .subsection {
+            margin-left: 0;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .subsection h3 {
+            color: #1e3a8a;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 12px;
+        }
+        table thead {
+            background-color: #34495e;
+            color: white;
+        }
+        table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #34495e;
+        }
+        table td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+        }
+        table tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .checklist {
+            margin: 15px 0;
+        }
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            font-size: 13px;
+        }
+        .checklist-item input[type="checkbox"] {
+            margin-right: 12px;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+        }
+        .box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #1e3a8a;
+            padding: 12px;
+            margin: 15px 0;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        .box strong {
+            display: block;
+            margin-bottom: 8px;
+            color: #1e3a8a;
+        }
+        .priority-high {
+            background-color: #ffe6e6;
+            border-left-color: #e74c3c;
+        }
+        .priority-medium {
+            background-color: #fff3cd;
+            border-left-color: #f39c12;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #1e3a8a;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+        .signature-block {
+            margin-top: 30px;
+            display: table;
+            width: 100%;
+        }
+        .signature {
+            display: table-cell;
+            width: 48%;
+            text-align: center;
+        }
+        .signature-line {
+            border-top: 1px solid #333;
+            margin-top: 40px;
+            padding-top: 8px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- OFFICIAL HEADER -->
+        <div class="official-header">
+            <h1>COMMISSIONING & HANDOVER PLAN</h1>
+            <p>Ecclesfield Comprehensive School Library Learning Centre</p>
+            <p>Project Reference: ECS-LLC-2025 | Classification: OFFICIAL</p>
+        </div>
+
+        <!-- DOCUMENT INFORMATION -->
+        <div class="document-info">
+            <table>
+                <tr>
+                    <td><strong>Project Name:</strong></td>
+                    <td>Library Learning Centre with Classrooms and IT Suites</td>
+                </tr>
+                <tr>
+                    <td><strong>Location:</strong></td>
+                    <td>Ecclesfield Comprehensive School, Sheffield</td>
+                </tr>
+                <tr>
+                    <td><strong>Document Type:</strong></td>
+                    <td>Appendix D - Commissioning & Handover Strategy</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Project Value:</strong></td>
+                    <td>£4,200,000</td>
+                </tr>
+                <tr>
+                    <td><strong>Construction Duration:</strong></td>
+                    <td>52 Weeks | Week 0 to Week 52</td>
+                </tr>
+                <tr>
+                    <td><strong>Document Date:</strong></td>
+                    <td>January 2025</td>
+                </tr>
+                <tr>
+                    <td><strong>Status:</strong></td>
+                    <td>FINAL</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- D.1 OVERVIEW -->
+        <div class="section-header">D.1 EXECUTIVE OVERVIEW</div>
+        <div class="box">
+            <strong>Purpose of this Document</strong>
+            This plan establishes the structured approach for commissioning and handover of the Library Learning Centre upon practical completion. It ensures all building systems operate safely and efficiently, all statutory requirements are met, and the school is fully prepared for occupation.
+        </div>
+
+        <!-- D.2 COMMISSIONING TIMELINE -->
+        <div class="section-header">D.2 COMMISSIONING TIMELINE & MILESTONES</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Phase</th>
+                    <th>Duration</th>
+                    <th>Timing</th>
+                    <th>Key Activities</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Pre-Commissioning</strong></td>
+                    <td>2 weeks</td>
+                    <td>Week 50-52</td>
+                    <td>Systems testing, documentation review, final preparation</td>
+                </tr>
+                <tr>
+                    <td><strong>Practical Completion</strong></td>
+                    <td>—</td>
+                    <td>Week 52</td>
+                    <td>Formal sign-off by Principal Contractor, Architect & School</td>
+                </tr>
+                <tr>
+                    <td><strong>Defects Liability Period</strong></td>
+                    <td>12 months</td>
+                    <td>Week 52 – Month 13</td>
+                    <td>Monitoring, defect rectification, interim certificates issued</td>
+                </tr>
+                <tr>
+                    <td><strong>Snagging Phase</strong></td>
+                    <td>Ongoing</td>
+                    <td>Week 52 – Month 12</td>
+                    <td>Minor defects identification and rectification</td>
+                </tr>
+                <tr>
+                    <td><strong>Final Certificate Issue</strong></td>
+                    <td>—</td>
+                    <td>Month 13</td>
+                    <td>Upon all defects cleared and obligations met</td>
+                </tr>
+                <tr>
+                    <td><strong>Handover to School</strong></td>
+                    <td>1 week</td>
+                    <td>Month 13-13.5</td>
+                    <td>Full occupation and operational control transferred</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- D.3 SYSTEMS COMMISSIONING -->
+        <div class="section-header">D.3 BUILDING SYSTEMS COMMISSIONING CHECKLIST</div>
+        
+        <div class="subsection">
+            <h3>Mechanical Systems</h3>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Heating system (boilers, radiators, thermostatic controls)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Ventilation & Heat Recovery Unit (HRU) – Validate 30% heating demand reduction
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Air handling units – Noise level verification (BS 5228-1:2014)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> BMS controls and thermostat calibration
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Electrical Systems</h3>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Main distribution board and sub-circuits – Full inspection
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Emergency lighting and exit signage – Functionality test
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Occupancy-sensor LED lighting (6W/m²) – Illumination verification
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Backup power (110kVA generator) – Load testing
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Fire alarm system – Full functional test and override procedures
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Electrical Installation Condition Report (EICR) – Certification
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Plumbing & Water Systems</h3>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Water supply pressure and flow rate verification
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Low-flow sanitaryware (4.5L/flush maximum) – Flow testing
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Rainwater harvesting tank (10,000L) – Pump and filtration testing
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Drainage systems and grease traps – Clearance and functionality
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Legionella risk assessment – Completion and sign-off
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>IT & Audio-Visual Systems</h3>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Network infrastructure – Speed and coverage testing
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Wi-Fi connectivity – Campus-wide coverage verification
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Smart classroom AV systems – Functionality and training
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> IT suite servers and workstations – Performance baseline
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Security system integration – Access control and alarm testing
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Building Envelope & Fire Safety</h3>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Curtain walling thermal performance (U-value 0.18 W/m²K) – Verification
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Fire-rated elements (60-minute precast planks) – Certification
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Green roof and photovoltaic panels (45kWp) – Output verification
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Safe working at height systems – Inspection and certification
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Fire Risk Assessment – Completion and review
+                </div>
+            </div>
+        </div>
+
+        <!-- D.4 DEFECTS LIABILITY PERIOD -->
+        <div class="section-header">D.4 DEFECTS LIABILITY PERIOD (12 MONTHS)</div>
+
+        <div class="subsection">
+            <h3>Monthly Interim Certificates</h3>
+            <div class="box">
+                <strong>Issue Authority:</strong> Project Architect
+                <br><strong>Frequency:</strong> Monthly throughout the 12-month DLP
+                <br><strong>Contents:</strong>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>Site inspection findings and observations</li>
+                    <li>Defects log and required rectification actions</li>
+                    <li>Works completed satisfactorily</li>
+                    <li>Contractor compliance status against DLP requirements</li>
+                    <li>Certification of interim payments (if applicable)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Snagging Protocol & Response Times</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Defect Category</th>
+                        <th>Definition</th>
+                        <th>Contractor Response Time</th>
+                        <th>Completion Target</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Minor Defects</strong></td>
+                        <td>Repair cost < £500 (paint touch-ups, door adjustments, signage)</td>
+                        <td>48 hours</td>
+                        <td>5 working days</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Major Defects</strong></td>
+                        <td>Repair cost > £500 (equipment replacement, structural repairs)</td>
+                        <td>5 working days</td>
+                        <td>15-30 days (phased)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Urgent/Safety-Critical</strong></td>
+                        <td>Safety risk (fire systems, structural cracks, electrical faults)</td>
+                        <td>24 hours</td>
+                        <td>Immediate/Off-site if required</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- D.5 TESTING & CERTIFICATION -->
+        <div class="section-header">D.5 BUILDING PERFORMANCE TESTING & STATUTORY CERTIFICATION</div>
+
+        <div class="subsection">
+            <h3>Performance Testing Schedule</h3>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Building air tightness test – Verify envelope performance (U-value 0.18 W/m²K)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Acoustic performance testing – Confirm BB93 noise standards (55dB to classrooms)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Thermal imaging survey – Check for heat loss and cold bridges
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Lighting level survey – Validate 80% glazing and 2-hour daylight factors
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Energy consumption baseline – Establish post-occupancy monitoring parameters
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Statutory Compliance Certificates Required</h3>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> BREEAM Excellent certification (70% credits threshold)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Building Regulations completion certificate
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Fire Risk Assessment – Competent person sign-off
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Asbestos Register – CDM 2015 requirement
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Electrical Installation Condition Report (EICR)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Gas Safety Certificate (if applicable)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Lifting Equipment Inspection Certificates (LOLER compliance – 6-monthly)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> PAT testing certificates – All portable electrical appliances
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Maintenance Manuals & Documentation</h3>
+            <div class="box">
+                <strong>Principal Contractor to Supply:</strong>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>Equipment maintenance schedules and service intervals</li>
+                    <li>System operation manuals (plain language for school staff)</li>
+                    <li>Warranty documents (all plant and materials)</li>
+                    <li>Spare parts lists and supplier contact details</li>
+                    <li>Emergency shutdown procedures</li>
+                    <li>Building Health & Safety File (CDM 2015)</li>
+                    <li>As-built drawings and specifications</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- D.6 STAFF TRAINING -->
+        <div class="section-header">D.6 STAFF TRAINING & HANDOVER SCHEDULE</div>
+
+        <div class="subsection">
+            <h3>Pre-Handover Training Programme (Week 52-53)</h3>
+            
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Facilities Management Team Training</strong>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Building Management System (BMS) operation and remote monitoring
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Emergency shutdown procedures for all systems
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Heating/cooling system adjustment and seasonal changeover
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Lighting control and occupancy sensor override procedures
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Rainwater tank operation, monitoring and maintenance schedule
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Fire alarm system testing and bypass procedures
+                </div>
+            </div>
+
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Teaching Staff Briefing</strong>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Classroom technology systems (projectors, smart boards, lighting controls)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> IT suite server and network access procedures
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Building security and access control systems
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Emergency procedures and evacuation routes
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Environmental controls (windows, ventilation, natural light management)
+                </div>
+            </div>
+
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Cleaning & Catering Staff Briefing</strong>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox"> Safe access to maintenance areas and restricted zones
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Hazardous substance storage and safety data sheets
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Waste segregation procedures (recycling, general, hazardous)
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox"> Equipment operation (if applicable to role)
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Handover Documentation Pack</h3>
+            <div class="box">
+                <strong>School to Receive:</strong>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>Operating & Maintenance (O&M) manuals (printed and digital copies)</li>
+                    <li>Health & Safety File (CDM 2015 requirement)</li>
+                    <li>As-built drawings and electrical single-line diagrams</li>
+                    <li>All warranties and guarantees (registered with manufacturers)</li>
+                    <li>Key supplier contact details and technical support numbers</li>
+                    <li>Spare parts location and ordering procedures</li>
+                    <li>Building logbook (for ongoing maintenance records)</li>
+                    <li>Energy performance certificate and utility baseline data</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- D.7 FINAL CERTIFICATE -->
+        <div class="section-header">D.7 FINAL CERTIFICATE PROCESS (MONTH 13)</div>
+
+        <div class="subsection">
+            <h3>Prerequisites for Final Certificate Issue</h3>
+            <div class="box priority-high">
+                <strong>All of the following MUST be completed before Final Certificate can be issued:</strong>
+                <div class="checklist" style="margin-top: 12px;">
+                    <div class="checklist-item">
+                        <input type="checkbox"> All defects from DLP rectified and signed off by Architect
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox"> All statutory certificates obtained and submitted
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox"> All testing and commissioning completed with passing results
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox"> All warranties and guarantees registered with manufacturers
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox"> All O&M documentation submitted to school
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox"> Staff training completed and sign-off obtained
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox"> Architect final inspection undertaken – Pass
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox"> Contractor final account submitted and agreed
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Final Certificate Issuance</h3>
+            <div class="box">
+                <strong>Upon completion of all prerequisites, the Architect will issue:</strong>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li><strong>FINAL CERTIFICATE</strong> – Confirming practical completion and all contractual obligations met</li>
+                    <li>This triggers release of final payment to Principal Contractor</li>
+                    <li>Defects liability period commences (12 months from practical completion)</li>
+                    <li>Full responsibility for maintenance transfers to school after 12-month period</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- D.8 POST-HANDOVER -->
+        <div class="section-header">D.8 POST-HANDOVER PERIOD – SCHOOL OCCUPATION</div>
+
+        <div class="subsection">
+            <h3>Soft Landings Protocol (First 3 Months of Occupation)</h3>
+            
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Month 1: Building Performance Monitoring</strong>
+            <div class="box">
+                <ul style="margin-left: 20px;">
+                    <li>Energy consumption tracking and analysis</li>
+                    <li>Temperature and humidity monitoring</li>
+                    <li>User feedback collection on comfort levels</li>
+                    <li>System fine-tuning (thermostat calibration, ventilation adjustments)</li>
+                </ul>
+            </div>
+
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Month 2: Performance Evaluation</strong>
+            <div class="box">
+                <ul style="margin-left: 20px;">
+                    <li>Compare actual vs. predicted energy use</li>
+                    <li>Identify operational issues and rectify</li>
+                    <li>Collect staff feedback on building systems</li>
+                    <li>Validate BREEAM sustainability targets being met</li>
+                </ul>
+            </div>
+
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Month 3: Fine-tuning & Optimization</strong>
+            <div class="box">
+                <ul style="margin-left: 20px;">
+                    <li>Final adjustments to HVAC, lighting, and controls</li>
+                    <li>Staff training updates if required</li>
+                    <li>Building performance baseline established</li>
+                    <li>Handover of monitoring to school facilities team</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Ongoing Post-Handover Responsibilities</h3>
+            
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Year 1 (Defects Liability Period)</strong>
+            <div class="box priority-medium">
+                <ul style="margin-left: 20px;">
+                    <li>Principal Contractor remains responsible for any defects</li>
+                    <li>Architect conducts 3-month, 6-month, and final inspections</li>
+                    <li>Emergency repairs available 24/7 contact number provided</li>
+                    <li>Warranty claims monitored and processed</li>
+                </ul>
+            </div>
+
+            <strong style="display: block; margin-top: 15px; color: #1e3a8a;">Year 2 Onwards</strong>
+            <div class="box">
+                <ul style="margin-left: 20px;">
+                    <li>Full responsibility transferred to school Facilities Manager</li>
+                    <li>Maintenance managed under school's facilities contract</li>
+                    <li>Quarterly building performance reviews recommended</li>
+                    <li>Annual plant servicing (heating, HRU, electrical systems)</li>
+                    <li>5-year major component reviews</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- D.9 DISPUTE RESOLUTION -->
+        <div class="section-header">D.9 DEFECT DISPUTE RESOLUTION PROCESS</div>
+
+        <div class="subsection">
+            <h3>Dispute Escalation Procedure</h3>
+            <div class="box priority-high">
+                <strong>If school and Contractor disagree on whether item is a defect:</strong>
+                <table style="margin-top: 12px;">
+                    <thead>
+                        <tr>
+                            <th>Step</th>
+                            <th>Authority</th>
+                            <th>Timeframe</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Project Architect</td>
+                            <td>5 working days</td>
+                            <td>Independent assessment and determination</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Mediation (if unresolved)</td>
+                            <td>10 working days</td>
+                            <td>Neutral third party facilitated discussion</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Adjudication (if still unresolved)</td>
+                            <td>28 days</td>
+                            <td>Formal dispute resolution – Binding decision</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Timeline Extension Protocol</h3>
+            <div class="box">
+                <strong>If defects cannot be completed within 12-month DLP:</strong>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>Contractor must provide detailed completion schedule</li>
+                    <li>Retention fund held from final payment (typically 5-10% of contract value)</li>
+                    <li>Extended DLP period agreed (maximum 2 months additional)</li>
+                    <li>Retention fund released upon final completion and sign-off</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- D.10 KEY DATES SUMMARY -->
+        <div class="section-header">D.10 PROJECT MILESTONES & KEY DATES</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Milestone</th>
+                    <th>Week/Month</th>
+                    <th>Responsible Party</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pre-commissioning begins</td>
+                    <td>Week 50</td>
+                    <td>Principal Contractor & Services Engineer</td>
+                    <td>Scheduled</td>
+                </tr>
+                <tr>
+                    <td><strong>PRACTICAL COMPLETION</strong></td>
+                    <td><strong>Week 52</strong></td>
+                    <td><strong>All parties</strong></td>
+                    <td><strong>TARGET DATE</strong></td>
+                </tr>
+                <tr>
+                    <td>Staff training commences</td>
+                    <td>Week 52-53</td>
+                    <td>Principal Contractor & School</td>
+                    <td>Pre-occupation</td>
+                </tr>
+                <tr>
+                    <td>Defects Liability Period begins</td>
+                    <td>Week 52</td>
+                    <td>All parties</td>
+                    <td>12-month duration</td>
+                </tr>
+                <tr>
+                    <td>Soft Landings monitoring begins</td>
+                    <td>Week 52</td>
+                    <td>School & Contractor</td>
+                    <td>3-month programme</td>
+                </tr>
+                <tr>
+                    <td>3-month Architect inspection</td>
+                    <td>Month 3</td>
+                    <td>Project Architect</td>
+                    <td>Mid-DLP review</td>
+                </tr>
+                <tr>
+                    <td>6-month Architect inspection</td>
+                    <td>Month 6</td>
+                    <td>Project Architect</td>
+                    <td>Mid-DLP review</td>
+                </tr>
+                <tr>
+                    <td>Final inspection & defects sign-off</td>
+                    <td>Month 12</td>
+                    <td>Project Architect</td>
+                    <td>End of DLP</td>
+                </tr>
+                <tr>
+                    <td><strong>FINAL CERTIFICATE ISSUED</strong></td>
+                    <td><strong>Month 13</strong></td>
+                    <td><strong>Project Architect</strong></td>
+                    <td><strong>COMPLETION</strong></td>
+                </tr>
+                <tr>
+                    <td>Full handover to school</td>
+                    <td>Month 13-13.5</td>
+                    <td>All parties</td>
+                    <td>School occupation</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p><strong>Document Classification:</strong> OFFICIAL</p>
+            <p><strong>Version:</strong> 1.0 Final | <strong>Date:</strong> January 2025</p>
+            <p style="margin-top: 20px; border-top: 1px solid #999; padding-top: 15px;">
+                This document is part of the formal project delivery strategy and should be retained throughout the defects liability period and beyond as part of the school's maintenance records.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
